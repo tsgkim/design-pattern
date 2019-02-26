@@ -1,4 +1,4 @@
-package com.tsgkim.design.adapter;
+package com.tsgkim.design.adapter.example1;
 
 /**
  * target:
