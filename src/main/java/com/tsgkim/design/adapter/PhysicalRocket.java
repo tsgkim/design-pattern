@@ -15,7 +15,7 @@ public class PhysicalRocket {
      * 获取火箭的质量
      */
     public double getMass(double t) {
-        // 走自己的逻辑，假设最后返回 3D
+        // 走自己的逻辑，假设最后返回 1D
         return 1D;
     }
 
