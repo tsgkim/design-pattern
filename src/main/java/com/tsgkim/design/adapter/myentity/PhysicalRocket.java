@@ -1,13 +1,10 @@
-package com.tsgkim.design.adapter.example1;
+package com.tsgkim.design.adapter.myentity;
 
 /**
- * target:
- *      适配本类满足 {@link RocketSim} 功能
- *
- * 类似 {@link RocketSim} 的功能，方法并不完全匹配 {@link RocketSim}
+ * 火箭物理模型类
  *
  * @author: shiguang.tu
- * @create: 2019/2/26 10:52 PM
+ * @create: 2019/2/28 12:22 AM
  */
 public class PhysicalRocket {
 

@@ -1,4 +1,4 @@
-package com.tsgkim.design.adapter.example1;
+package com.tsgkim.design.adapter.myclass;
 
 /**
  * 火箭仿真接口

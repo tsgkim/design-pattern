@@ -1,7 +1,8 @@
-package com.tsgkim.design.adapter.example1;
+package com.tsgkim.design.adapter.myclass;
 
 /**
  * 适配 {@link RocketSim} 类
+ * 类适配器：实现接口，继承需要适配的类，适用于一组方法定义在接口中
  */
 public class Wonderful extends PhysicalRocket implements RocketSim {
 
