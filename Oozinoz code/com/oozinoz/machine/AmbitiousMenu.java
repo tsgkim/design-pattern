@@ -13,15 +13,15 @@ package com.oozinoz.machine;
 
 /**
  * This (dysfunctional) class shows a method from an overly ambitious menu that
- * figures out who the responsible engineer is for a piece of equipment. In the
+ * figures out who the responsible Engineer is for a piece of equipment. In the
  * "Chain of Responsibility" chapter of "Design Patterns in Java," this code is
  * refactored so that the domain objects determine who is the responsible
- * engineer.
+ * Engineer.
  */
 public class AmbitiousMenu {
     /**
      * @param item The interesting item
-     * @return The engineer who is responsible for item
+     * @return The Engineer who is responsible for item
      */
     public Engineer getResponsible(VisualizationItem item) {
         if (item instanceof Tool)

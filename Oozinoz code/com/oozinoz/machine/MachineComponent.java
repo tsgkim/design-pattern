@@ -112,7 +112,7 @@ public abstract class MachineComponent {
     }
 
     /**
-     * @return the engineer who is responsible for this machine
+     * @return the Engineer who is responsible for this machine
      */
     public Engineer getResponsible() {
         if (responsible != null)

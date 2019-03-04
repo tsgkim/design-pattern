@@ -18,7 +18,7 @@ package com.oozinoz.machine;
 public class AmbitiousMenu2 {
     /**
      * @param item The interesting item
-     * @return The engineer who is responsible for the item
+     * @return The Engineer who is responsible for the item
      */
     public Engineer getResponsible(VisualizationItem item) {
         return item.getResponsible();

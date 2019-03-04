@@ -17,7 +17,7 @@ package com.oozinoz.machine;
  */
 public class MachineRoot extends MachineComposite {
     /**
-     * Create a root component with the given responsible engineer.
+     * Create a root component with the given responsible Engineer.
      * @param id the identity of this component
      * @param engineer the person with overall responsibility for the machines
      *            in this composite

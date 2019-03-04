@@ -19,15 +19,15 @@ public class Engineer {
     protected int employeeID;
 
     /**
-     * Model an engineer with the given employee id.
-     * @param employeeID The employee id for the engineer
+     * Model an Engineer with the given employee id.
+     * @param employeeID The employee id for the Engineer
      */
     public Engineer(int employeeID) {
         this.employeeID = employeeID;
     }
 
     /**
-     * @return This engineer's employee ID.
+     * @return This Engineer's employee ID.
      */
     public int getEmployeeID() {
         return employeeID;

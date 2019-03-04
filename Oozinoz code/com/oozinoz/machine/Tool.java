@@ -30,7 +30,7 @@ public class Tool implements VisualizationItem {
     }
 
     /**
-     * The engineer who is responsible for tools in this tool's tool cart.
+     * The Engineer who is responsible for tools in this tool's tool cart.
      */
     public Engineer getResponsible() {
         return toolCart.getResponsible();

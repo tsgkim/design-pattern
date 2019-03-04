@@ -18,7 +18,7 @@ package com.oozinoz.machine;
  */
 public interface VisualizationItem {
     /**
-     *  Return the engineer who is responsible for the machine
+     *  Return the Engineer who is responsible for the machine
      *  that this simulated item represents.
      */
     Engineer getResponsible();

@@ -18,16 +18,16 @@ public class ToolCart implements VisualizationItem {
     protected Engineer responsible;
 
     /**
-    *  Construct a tool cart, noting the engineer who
+    *  Construct a tool cart, noting the Engineer who
     *  is responsible for the tools on this cart.
-    * @param e the responsible engineer
+    * @param e the responsible Engineer
     */
     public ToolCart(Engineer e) {
         this.responsible = e;
     }
 
     /**
-    *  @return The engineer who is responsible for tools in
+    *  @return The Engineer who is responsible for tools in
     *  this tool's tool cart.
     */
     public Engineer getResponsible() {
