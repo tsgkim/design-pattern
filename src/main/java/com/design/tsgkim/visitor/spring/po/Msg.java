@@ -1,4 +1,4 @@
-package com.design.tsgkim.visitor.spring.msg;
+package com.design.tsgkim.visitor.spring.po;
 
 public class Msg {
 

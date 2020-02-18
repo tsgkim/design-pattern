@@ -1,7 +1,7 @@
-package com.design.tsgkim.visitor.spring;
+package com.design.tsgkim.visitor.spring.controller;
 
-import com.design.tsgkim.visitor.spring.msg.Msg;
-import com.design.tsgkim.visitor.spring.msg.MsgEvent;
+import com.design.tsgkim.visitor.spring.event.MsgEvent;
+import com.design.tsgkim.visitor.spring.po.Msg;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ public class MsgController {
     private ApplicationContext applicationContext;
 
     @GetMapping("/publishMsg")
-    public void publishMsg() {
+    public String publishMsg() {
 
         Msg msg = new Msg();
         msg.setUserId("1");
@@ -22,6 +22,8 @@ public class MsgController {
 
         MsgEvent msgEvent = new MsgEvent(msg);
         applicationContext.publishEvent(msgEvent);
+
+        return "执行完毕";
 
     }
 

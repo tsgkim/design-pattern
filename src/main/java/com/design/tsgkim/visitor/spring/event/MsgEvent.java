@@ -1,5 +1,6 @@
-package com.design.tsgkim.visitor.spring.msg;
+package com.design.tsgkim.visitor.spring.event;
 
+import com.design.tsgkim.visitor.spring.po.Msg;
 import org.springframework.context.ApplicationEvent;
 
 public class MsgEvent extends ApplicationEvent {
